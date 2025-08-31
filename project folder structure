@@ -1,0 +1,12 @@
+pfsense-project/
+├── README.md
+├── configs/
+│   └── config-backup.xml
+├── scripts/
+│   └── example-script.sh
+├── diagrams/
+│   └── network-topology.png
+├── docs/
+│   └── setup-guide.md
+└── screenshots/
+    └── dashboard.png
