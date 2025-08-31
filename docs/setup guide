@@ -1,0 +1,11 @@
+# pfSense Setup Guide
+
+## Import Configuration
+1. Go to Diagnostics → Backup & Restore → Restore  
+2. Select `configs/config-backup.xml` and restore
+
+## VPN Setup
+- Configure IPSec or OpenVPN as per your network needs
+
+## Firewall Rules
+- Import rules from `configs/example-rules.txt` if applicable
