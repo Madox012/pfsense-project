@@ -1,0 +1,27 @@
+# pfSense Project
+
+This repository contains my pfSense firewall project, including configuration files, scripts, network diagrams, and setup documentation.
+
+## Features
+- Firewall rules configuration
+- VPN setup (IPSec/OpenVPN)
+- NAT rules and port forwarding
+- Monitoring setup (RRD Graphs, logs)
+
+## Project Structure
+- `configs/` – Exported pfSense configuration files
+- `scripts/` – Helper scripts
+- `diagrams/` – Network topology diagrams
+- `docs/` – Documentation and setup guides
+- `screenshots/` – pfSense UI screenshots
+
+## Setup Instructions
+1. Import `config-backup.xml` in pfSense under **Diagnostics → Backup & Restore**  
+2. Apply firewall and NAT rules as per `example-rules.txt` (if applicable)  
+3. Follow `docs/setup-guide.md` for VPN and advanced setup
+
+## Screenshots
+![Dashboard](screenshots/dashboard.png)
+
+## License
+This project is open-source and licensed under MIT License.
