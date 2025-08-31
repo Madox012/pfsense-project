@@ -1,0 +1,6 @@
+<!-- Example pfSense configuration placeholder -->
+<pfsense>
+    <system>
+        <hostname>pfSense</hostname>
+    </system>
+</pfsense>
